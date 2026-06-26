@@ -76,7 +76,7 @@ def eval_model(model, X_test, y_test):
     plt.plot([0, 1], [0, 1], 'k--')
     # Plot the FPR and TPR achieved by our model
     plt.plot(fpr, tpr)
-    plt.xlabel('False Positive Rate')
+    plt.xlabel('False Positive Rateee')
     plt.ylabel('True Positive Rateeee')
     plt.title('ROC Curve')
     plt.savefig("ROC-Curve.png")
