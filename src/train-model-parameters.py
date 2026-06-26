@@ -77,7 +77,7 @@ def eval_model(model, X_test, y_test):
     # Plot the FPR and TPR achieved by our model
     plt.plot(fpr, tpr)
     plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
+    plt.ylabel('True Positive Rateeee')
     plt.title('ROC Curve')
     plt.savefig("ROC-Curve.png")
     mlflow.log_artifact("ROC-Curve.png")    
